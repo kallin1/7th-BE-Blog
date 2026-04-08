@@ -36,7 +36,7 @@ public class PostController {
         return ResponseEntity.ok(postService.getPost(id));
     }
 
-    // 게시글 수정:
+    // 게시글 수정
     @PatchMapping("/{id}")
     public ResponseEntity<Map<String, String>> update(
             @PathVariable Long id,
