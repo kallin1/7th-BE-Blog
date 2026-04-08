@@ -4,5 +4,11 @@ HELP.md
 .gradle/
 build/
 
+### IntelliJ ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
 ### Local Config ###
 /src/main/resources/application-local.properties
