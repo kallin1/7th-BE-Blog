@@ -1,5 +1,8 @@
 package com.leets.blog.entity;
 
+import com.leets.blog.entity.enums.ReportReason;
+import com.leets.blog.entity.enums.ReportStatus;
+import com.leets.blog.entity.enums.TargetType;
 import jakarta.persistence.*;
 import lombok.*;
 

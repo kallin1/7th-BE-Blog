@@ -1,6 +1,6 @@
 package com.leets.blog.repository;
 
-import com.leets.blog.entity.enums.Report;
+import com.leets.blog.entity.Report;
 import com.leets.blog.entity.enums.TargetType;
 import org.springframework.data.jpa.repository.JpaRepository;
 

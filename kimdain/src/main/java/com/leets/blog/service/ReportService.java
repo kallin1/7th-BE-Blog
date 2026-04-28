@@ -3,9 +3,16 @@ package com.leets.blog.service;
 import com.leets.blog.dto.ReportRequest;
 import com.leets.blog.entity.*;
 import com.leets.blog.repository.*;
+import com.leets.blog.repository.CommentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.leets.blog.entity.enums.ContentStatus;
+import com.leets.blog.entity.enums.TargetType;
+import com.leets.blog.entity.enums.ReportStatus;
+import com.leets.blog.entity.Report;
+import com.leets.blog.entity.Reportable;
 import java.util.List;
 
 @Service
